@@ -1,3 +1,3 @@
 # causalneck
-The algorithm used to make this paper: https://link.springer.com/article/10.1007/s10955-016-1520-1
-Sorry, it's kind of a mess. It uses the mixed state presentation algorithm.
+The algorithm used to make this paper: https://link.springer.com/article/10.1007/s10955-016-1520-1.
+Sorry, it's kind of a mess. CN_Code will allow you to recreate the paper, where the joint probability distribution of forward and reverse-time causal states has been solved separately. To do the more general case: PIB_fromForwardEM_Quaternary uses the mixed state presentation algorithm on something with a four-symbol emission alphabet, which could be modified for a binary alphabet or any finite-sized alphabet. The greater the alphabet size, the worse the compute time and memory required.
